@@ -1,0 +1,296 @@
+body {
+    font-family: 'roboto', sans-serif;
+    background: #076264;
+}
+
+nav {
+    overflow: hidden;
+    background-color: white;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    float: right;
+}
+
+.catagorien {
+    text-align: center;
+    color: #076264;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    float: right;
+}
+
+.catagorien li {
+    background-color: white;
+    border-radius: 1rem;
+    padding: 1%;
+    margin-right: 1em;
+}
+
+li a {
+    display: block;
+    color: #076264;
+    text-align: center;
+    padding: 4px 10px;
+    font-size: larger;
+    margin-right: 1em;
+}
+
+.h1_index {
+    color: #67d695;
+    font-size: 110%;
+    margin-left: 1em;
+    margin-bottom: 1%;
+}
+
+.h2_index {
+    color: white;
+    margin-bottom: 2%;
+    margin-left: 1em;
+    font-size: large;
+}
+
+.h3_index {
+    color: #076264;
+    background-color: white;
+    margin-bottom: 1%;
+    margin-left: 1em;
+    font-size: medium;
+}
+
+.h1_blog {
+    color: white;
+    font-size: large;
+    margin-left: 1em;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.h2_blog {
+    color: #076264;
+    font-size: medium;
+    padding-left: 5em;
+}
+
+.h1_catagorien {
+    color: white;
+    font-size: large;
+    margin-left: 1em;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.intro {
+    font-size: small;
+    color: white;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.catagorien img {
+    border-radius: 1rem;
+    width: 6em;
+
+}
+
+input[type=text] {
+    width: 318px;
+    height: 50px;
+    margin-top: 2vh;
+    color: #076264;
+}
+
+.input_boven[type=text] {
+    width: 150px;
+    height: 20px;
+    margin-top: 2vh;
+    margin-left: 15em;
+    color: #076264;
+}
+
+footer {
+    background-color: white;
+    padding: 1em;
+}
+
+.button_verstuur {
+    background-color: #67d695;
+    border: none;
+    color: #076264;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 8px 220px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+
+p {
+    color: #076264;
+}
+
+.article_index img {
+    border-radius: 1rem;
+    width: 10em;
+    height: 8em;
+    padding: 2%;
+    float: left;
+}
+
+.article_index {
+    background-color: white;
+    color: #076264;
+    font-size: small;
+    border-radius: 1rem;
+    padding: 1%;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 5%;
+
+}
+
+.article_blog img {
+    border-radius: 1rem;
+    width: 10em;
+    height: 8em;
+    float: left;
+    padding: 2%;
+}
+
+.article_blog {
+    background-color: white;
+    color: #076264;
+    font-size: small;
+    border-radius: 1rem;
+    padding: 1%;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 5%;
+}
+
+.one {
+    list-style: none;
+    padding: 1%;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.one li {
+    font-size: larger;
+    background-color: white;
+    color: #076264;
+    margin-bottom: 5%;
+    border-radius: 1rem;
+}
+
+.one img {
+    margin: 2%;
+    border-radius: 1rem;
+    width: 7em;
+    height: 4em;
+}
+
+.leesmeer {
+    background-color: #67d695;
+    border: none;
+    color: #076264;
+    padding: 8px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    margin: 4px 2px;
+    border-radius: 16px;
+    margin-left: 16em;
+}
+
+.h1_post {
+    color: #076264;
+    font-size: large;
+    margin-left: 1em;
+    margin-bottom: 1%;
+}
+
+.h2_post {
+    color: #076264;
+    font-size: medium;
+    padding-left: 2%;
+    padding-bottom: 0%;
+}
+
+.article_post img {
+    width: 10em;
+    height: 7em;
+    padding: 2%;
+    border-radius: 1rem;
+    float: left;
+    margin-left: 1em;
+    margin-right: 1em;
+    color: #076264;
+    background-color: white;
+    border-radius: 10%;
+}
+
+.article_post {
+    background-color: white;
+    border-radius: 1rem;
+    padding: 1%;
+    margin: 1em;
+}
+
+.p_one {
+    font-size: small;
+    margin-top: 13%;
+    padding-left: 2%;
+}
+
+.euro {
+    color: #076264;
+    font-weight: bold;
+}
+
+.inhoud {
+    font-size: x-small;
+}
+
+.checked {
+    color: #67d695;
+}
+
+.stars {
+    list-style: none;
+    color: #67d695;
+    padding-bottom: 1em;
+}
+
+.stars li {
+    float: left;
+}
+
+.reviews {
+    background-color: white;
+    border-radius: 1rem;
+    padding: 10px;
+    margin: 1em;
+    font-size: small;
+}
+
+.reviews img {
+    max-width: 60px;
+    width: 100%;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
